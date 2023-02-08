@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T13:57:16 IST" name="Default suite" finished-at="2023-02-08T13:57:29 IST" duration-ms="13118">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T13:57:16 IST" name="Default test" finished-at="2023-02-08T13:57:29 IST" duration-ms="13118">
+      <class name="com.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="loginPage_setUp()[pri:0, instance:com.TestCases.LoginPageTest@5717c37]" started-at="2023-02-08T13:57:16 IST" name="loginPage_setUp" finished-at="2023-02-08T13:57:24 IST" duration-ms="8515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_setUp -->
+        <test-method signature="loginPage_Title_Test()[pri:1, instance:com.TestCases.LoginPageTest@5717c37]" started-at="2023-02-08T13:57:24 IST" name="loginPage_Title_Test" description="LoginPage title validation" finished-at="2023-02-08T13:57:24 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_Title_Test -->
+        <test-method signature="loginPage_CurrentUrl_Test()[pri:2, instance:com.TestCases.LoginPageTest@5717c37]" started-at="2023-02-08T13:57:24 IST" name="loginPage_CurrentUrl_Test" description="Loginpage CurrentUrl Validation" finished-at="2023-02-08T13:57:24 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_CurrentUrl_Test -->
+        <test-method signature="loginPage_OrangeHRMLogoTest()[pri:3, instance:com.TestCases.LoginPageTest@5717c37]" started-at="2023-02-08T13:57:24 IST" name="loginPage_OrangeHRMLogoTest" description="LoginPage OrangeHRM Logo Image on Top" finished-at="2023-02-08T13:57:26 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_OrangeHRMLogoTest -->
+        <test-method signature="loginPage_Login()[pri:4, instance:com.TestCases.LoginPageTest@5717c37]" started-at="2023-02-08T13:57:26 IST" name="loginPage_Login" description="LoginPage login Test" finished-at="2023-02-08T13:57:28 IST" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_Login -->
+        <test-method is-config="true" signature="loginPage_TearDown()[pri:0, instance:com.TestCases.LoginPageTest@5717c37]" started-at="2023-02-08T13:57:28 IST" name="loginPage_TearDown" finished-at="2023-02-08T13:57:29 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_TearDown -->
+      </class> <!-- com.TestCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
