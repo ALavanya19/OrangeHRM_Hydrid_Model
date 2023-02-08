@@ -1,23 +1,22 @@
 package com.ApplicationWebPages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
-import com.ApplicationWebPages.ForgotYourPasswordPage;
+
 import com.ApplicationWebPages.HomePage;
+import com.BaseClass.Base;
 import com.CommonActions.CommonOperations;
 
-public class LoginPage{
+public class LoginPage extends Base{
 
-	WebDriver driver;
-	
-	
-	public LoginPage(WebDriver driver){
+	public LoginPage() throws IOException{
 		PageFactory.initElements(driver, this);
-		this.driver=driver;
+		
 	}
 	
 	
@@ -78,9 +77,9 @@ public class LoginPage{
 	}
 	
 	//validating LoginPage forgot your password
-	public ForgotYourPasswordPage loginPage_ForgotYourPassword() {
+	public ResetPasswordPage loginPage_ForgotYourPassword() throws IOException {
 		CommonOperations.click(forgotYorPasswordE);
-		return new ForgotYourPasswordPage();
+		return new ResetPasswordPage();
 	}
 	
 	

@@ -1,20 +1,5 @@
-2023-02-08 13:57:15,782 - com.Log.Log -INFO - Extent Report File loaded Successfully
-2023-02-08 13:57:15,815 - com.Log.Log -INFO - Property File Loaded Successfully
-2023-02-08 13:57:16,091 - com.Log.Log -INFO - Suite Started successfull
-2023-02-08 13:57:20,470 - com.Log.Log -INFO - Chrome Browser Launched Successfully
-2023-02-08 13:57:24,574 - com.Log.Log -INFO - Application Launched Successfully
-2023-02-08 13:57:24,622 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfully
-2023-02-08 13:57:24,671 - com.Log.Log -INFO - Test Started Successfull
-2023-02-08 13:57:24,721 - com.Log.Log -INFO - LoginPage Title Validation Successfully - PASS
-2023-02-08 13:57:24,734 - com.Log.Log -INFO - Test Successfull
-2023-02-08 13:57:24,750 - com.Log.Log -INFO - Test Started Successfull
-2023-02-08 13:57:24,776 - com.Log.Log -INFO - LoginPage Current Url Validation Successfully - PASS
-2023-02-08 13:57:24,783 - com.Log.Log -INFO - Test Successfull
-2023-02-08 13:57:24,798 - com.Log.Log -INFO - Test Started Successfull
-2023-02-08 13:57:26,233 - com.Log.Log -INFO - LoginPage OrangeHRM Logo Validation Successfully - PASS
-2023-02-08 13:57:26,242 - com.Log.Log -INFO - Test Successfull
-2023-02-08 13:57:26,256 - com.Log.Log -INFO - Test Started Successfull
-2023-02-08 13:57:28,116 - com.Log.Log -INFO - Entered Username and Password Successfully
-2023-02-08 13:57:28,129 - com.Log.Log -INFO - Test Successfull
-2023-02-08 13:57:29,179 - com.Log.Log -INFO - Applicaton closed successfully
-2023-02-08 13:57:29,225 - com.Log.Log -INFO - Suite finished successfull
+2023-02-08 17:57:20,394 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:57:20,550 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:57:20,577 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:57:20,997 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-08 17:57:21,043 - com.Log.Log -INFO - Suite Started successfull

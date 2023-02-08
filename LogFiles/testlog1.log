@@ -1,20 +1,5 @@
-[main] INFO com.Log.Log - Extent Report File loaded Successfully
 [main] INFO com.Log.Log - Property File Loaded Successfully
-[main] INFO com.Log.Log - Suite Started successfull
-[main] INFO com.Log.Log - Chrome Browser Launched Successfully
-[main] INFO com.Log.Log - Application Launched Successfully
-[main] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfully
-[main] INFO com.Log.Log - Test Started Successfull
-[main] INFO com.Log.Log - LoginPage Title Validation Successfully - PASS
-[main] INFO com.Log.Log - Test Successfull
-[main] INFO com.Log.Log - Test Started Successfull
-[main] INFO com.Log.Log - LoginPage Current Url Validation Successfully - PASS
-[main] INFO com.Log.Log - Test Successfull
-[main] INFO com.Log.Log - Test Started Successfull
-[main] INFO com.Log.Log - LoginPage OrangeHRM Logo Validation Successfully - PASS
-[main] INFO com.Log.Log - Test Successfull
-[main] INFO com.Log.Log - Test Started Successfull
-[main] INFO com.Log.Log - Entered Username and Password Successfully
-[main] INFO com.Log.Log - Test Successfull
-[main] INFO com.Log.Log - Applicaton closed successfully
-[main] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Suite Started successfull

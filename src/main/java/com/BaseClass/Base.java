@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.BeforeSuite;
 
 import com.Config.PropertiesClass;
 import com.Log.Log;
@@ -24,16 +25,20 @@ public class Base {
 	
 	public Base() throws IOException{
 		
-		extent=new ExtentReports();
-		ExtentHtmlReporter htmlReporter=new ExtentHtmlReporter("./ExtentReports/ohrmreports.html");
-		extent.attachReporter(htmlReporter);
-		Log.info("Extent Report File loaded Successfully");
 		PropertiesClass.loadProperties(propFilePath);
 		Log.info("Property File Loaded Successfully");
 		
 	}
 	
-	public static void steUp() throws IOException {
+	@BeforeSuite
+	public void extentReportsInititation() {
+		extent=new ExtentReports();
+		ExtentHtmlReporter htmlReporter=new ExtentHtmlReporter("./ExtentReports/ohrmreports.html");
+		extent.attachReporter(htmlReporter);
+		Log.info("Extent Reports Loaded Successfully");
+	}
+	
+	public static void setUp() throws IOException {
 		
 		String browserName=PropertiesClass.getProperties("browserName");
 		if(browserName.equalsIgnoreCase("chrome")) {

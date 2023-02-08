@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.TestCases.LoginPageTest">
+        <methods>
+          <include name="loginPage_CurrentUrl_Test"/>
+          <include name="loginPage_OrangeHRMLogoTest"/>
+          <include name="extentReportsInititation"/>
+          <include name="loginPage_setUp"/>
+          <include name="loginPage_Title_Test"/>
+          <include name="loginPage_LoginTest"/>
+          <include name="loginPage_TearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -2,13 +2,15 @@ package com.TestCases;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.ApplicationWebPages.LoginPage;
 import com.BaseClass.Base;
-import com.BaseClass.LoginPage;
 import com.Config.PropertiesClass;
 import com.Log.Log;
 
@@ -25,14 +27,21 @@ public class LoginPageTest extends Base {
 	
 	LoginPage loginPage;
      
-	@BeforeTest
+	@BeforeMethod
 	//SetUp browser and orangeHRM application 
 	public void loginPage_setUp() throws IOException {
 	
-		steUp();
-		loginPage=new LoginPage(driver);
+		setUp();
+		loginPage=new LoginPage();
 		Log.info("OrangeHRM Application LoginPage Launched Successfully");
 		
+	}
+	
+	@AfterMethod
+	//Close browser
+	public void loginPage_TearDown() {
+		extent.flush();
+		tearDown();
 	}
 	
 	@Test(priority=1, description = "LoginPage title validation")
@@ -94,7 +103,7 @@ public class LoginPageTest extends Base {
 	}
 	
 	@Test(priority=4, description = "LoginPage login Test")
-	public void loginPage_Login() {
+	public void loginPage_LoginTest() {
 		
 		test=extent.createTest("LoginPage Login Validation");
 		test.info("Validating LoginPage Login");
@@ -104,12 +113,5 @@ public class LoginPageTest extends Base {
 		Log.info("Entered Username and Password Successfully");
 	}
 	
-	@AfterTest
-	//Close browser
-	public void loginPage_TearDown() {
-		
-		extent.flush();
-		tearDown();
-	}
-	
+
 }
