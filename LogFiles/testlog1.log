@@ -3,3 +3,133 @@
 [main] INFO com.Log.Log - Property File Loaded Successfully
 [main] INFO com.Log.Log - Extent Reports Loaded Successfully
 [TestNG-tests-1] INFO com.Log.Log - Suite Started successfull
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - LoginPage Title Validation Successfully - PASS
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - ResetPasswordPage ResetPaswword Text validation Successfull - PASS
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - SendPasswordResetPage Current Url validation Successfull - PASS
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - LoginPage Current Url Validation Successfully - PASS
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - ResetPasswordPage ResetPaswword Link validation Successfull - PASS
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] WARN com.Log.Log - Test Failed
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - LoginPage OrangeHRM Logo Validation Successfully - PASS
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Entered invalid userName for resetPassword successfully
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - Entered Username and Password Successfully
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Chrome Browser Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Application Launched Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+[TestNG-tests-1] INFO com.Log.Log - Test Started Successfull
+[TestNG-tests-1] INFO com.Log.Log - Property File Loaded Successfully
+[TestNG-tests-1] INFO com.Log.Log - Entered Username for ResetPassword successfully
+[TestNG-tests-1] INFO com.Log.Log - Test Successfull
+[TestNG-tests-1] INFO com.Log.Log - Applicaton closed successfully
+[TestNG-tests-1] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+[main] INFO com.Log.Log - SendPasswordResetPage Current Url validation Successfull - PASS
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+[main] INFO com.Log.Log - SendPasswordResetPage text validation Successfull - PASS
+[main] INFO com.Log.Log - Applicaton closed successfully

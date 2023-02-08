@@ -1,141 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-08T17:49:40 IST" name="Suite" finished-at="2023-02-08T17:51:27 IST" duration-ms="107039">
+  <suite started-at="2023-02-08T18:40:27 IST" name="Default suite" finished-at="2023-02-08T18:40:58 IST" duration-ms="30585">
     <groups>
     </groups>
-    <test started-at="2023-02-08T17:49:40 IST" name="Test" finished-at="2023-02-08T17:51:27 IST" duration-ms="107039">
-      <class name="com.TestCases.LoginPageTest">
-        <test-method is-config="true" signature="extentReportsInititation()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:49:40 IST" name="extentReportsInititation" finished-at="2023-02-08T17:49:40 IST" duration-ms="324" status="PASS">
+    <test started-at="2023-02-08T18:40:27 IST" name="Default test" finished-at="2023-02-08T18:40:58 IST" duration-ms="30585">
+      <class name="com.TestCases.SendPasswordResetPageTest">
+        <test-method is-config="true" signature="extentReportsInititation()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@72e5a8e]" started-at="2023-02-08T18:40:27 IST" name="extentReportsInititation" finished-at="2023-02-08T18:40:27 IST" duration-ms="702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportsInititation -->
-        <test-method is-config="true" signature="loginPage_setUp()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:49:40 IST" name="loginPage_setUp" finished-at="2023-02-08T17:49:49 IST" duration-ms="8620" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_setUp -->
-        <test-method signature="loginPage_Title_Test()[pri:1, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:49:49 IST" name="loginPage_Title_Test" description="LoginPage title validation" finished-at="2023-02-08T17:49:49 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_Title_Test -->
-        <test-method is-config="true" signature="loginPage_TearDown()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:49:49 IST" name="loginPage_TearDown" finished-at="2023-02-08T17:49:50 IST" duration-ms="1055" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_TearDown -->
-        <test-method is-config="true" signature="loginPage_setUp()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:50:14 IST" name="loginPage_setUp" finished-at="2023-02-08T17:50:22 IST" duration-ms="7742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_setUp -->
-        <test-method signature="loginPage_CurrentUrl_Test()[pri:2, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:50:22 IST" name="loginPage_CurrentUrl_Test" description="Loginpage CurrentUrl Validation" finished-at="2023-02-08T17:50:22 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_CurrentUrl_Test -->
-        <test-method is-config="true" signature="loginPage_TearDown()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:50:22 IST" name="loginPage_TearDown" finished-at="2023-02-08T17:50:22 IST" duration-ms="358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_TearDown -->
-        <test-method is-config="true" signature="loginPage_setUp()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:50:43 IST" name="loginPage_setUp" finished-at="2023-02-08T17:50:50 IST" duration-ms="6126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_setUp -->
-        <test-method signature="loginPage_OrangeHRMLogoTest()[pri:3, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:50:50 IST" name="loginPage_OrangeHRMLogoTest" description="LoginPage OrangeHRM Logo Image on Top" finished-at="2023-02-08T17:50:51 IST" duration-ms="978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_OrangeHRMLogoTest -->
-        <test-method is-config="true" signature="loginPage_TearDown()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:50:51 IST" name="loginPage_TearDown" finished-at="2023-02-08T17:50:51 IST" duration-ms="430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_TearDown -->
-        <test-method is-config="true" signature="loginPage_setUp()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:51:02 IST" name="loginPage_setUp" finished-at="2023-02-08T17:51:10 IST" duration-ms="7979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_setUp -->
-        <test-method signature="loginPage_LoginTest()[pri:4, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:51:10 IST" name="loginPage_LoginTest" description="LoginPage login Test" finished-at="2023-02-08T17:51:14 IST" duration-ms="4372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_LoginTest -->
-        <test-method is-config="true" signature="loginPage_TearDown()[pri:0, instance:com.TestCases.LoginPageTest@4dc27487]" started-at="2023-02-08T17:51:14 IST" name="loginPage_TearDown" finished-at="2023-02-08T17:51:15 IST" duration-ms="553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_TearDown -->
-      </class> <!-- com.TestCases.LoginPageTest -->
-      <class name="com.TestCases.SendPasswordResetPageTest">
-        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@14dd7b39]" started-at="2023-02-08T17:50:01 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T17:50:12 IST" duration-ms="11093" status="PASS">
+        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@72e5a8e]" started-at="2023-02-08T18:40:28 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T18:40:41 IST" duration-ms="13323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetPasswordPage_SetUp -->
-        <test-method signature="sendPasswordResetPageCurrentUrlTest()[pri:1, instance:com.TestCases.SendPasswordResetPageTest@14dd7b39]" started-at="2023-02-08T17:50:12 IST" name="sendPasswordResetPageCurrentUrlTest" description="SendPasswordResetPage Current Url validation" finished-at="2023-02-08T17:50:14 IST" duration-ms="1434" status="PASS">
+        <test-method signature="sendPasswordResetPageCurrentUrlTest()[pri:1, instance:com.TestCases.SendPasswordResetPageTest@72e5a8e]" started-at="2023-02-08T18:40:41 IST" name="sendPasswordResetPageCurrentUrlTest" description="SendPasswordResetPage Current Url validation" finished-at="2023-02-08T18:40:42 IST" duration-ms="1132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendPasswordResetPageCurrentUrlTest -->
-        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@14dd7b39]" started-at="2023-02-08T17:50:14 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T17:50:14 IST" duration-ms="481" status="PASS">
+        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@72e5a8e]" started-at="2023-02-08T18:40:42 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T18:40:43 IST" duration-ms="1088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetPasswordPage_TearDown -->
-        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@14dd7b39]" started-at="2023-02-08T17:50:32 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T17:50:41 IST" duration-ms="9415" status="PASS">
+        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@72e5a8e]" started-at="2023-02-08T18:40:43 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T18:40:56 IST" duration-ms="12733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetPasswordPage_SetUp -->
-        <test-method signature="sendPasswordRestTest()[pri:2, instance:com.TestCases.SendPasswordResetPageTest@14dd7b39]" started-at="2023-02-08T17:50:41 IST" name="sendPasswordRestTest" description="SendPasswordRestPage Text Validation" finished-at="2023-02-08T17:50:43 IST" duration-ms="1498" status="PASS">
+        <test-method signature="sendPasswordRestTest()[pri:2, instance:com.TestCases.SendPasswordResetPageTest@72e5a8e]" started-at="2023-02-08T18:40:56 IST" name="sendPasswordRestTest" description="SendPasswordRestPage Text Validation" finished-at="2023-02-08T18:40:58 IST" duration-ms="1807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendPasswordRestTest -->
-        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@14dd7b39]" started-at="2023-02-08T17:50:43 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T17:50:43 IST" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.SendPasswordResetPageTest@72e5a8e]" started-at="2023-02-08T18:40:58 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T18:40:58 IST" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetPasswordPage_TearDown -->
       </class> <!-- com.TestCases.SendPasswordResetPageTest -->
-      <class name="com.TestCases.ResetPasswordTest">
-        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:49:50 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T17:50:00 IST" duration-ms="9775" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_SetUp -->
-        <test-method signature="resetPasswordPage_ResetPasswordTextTest()[pri:1, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:50:00 IST" name="resetPasswordPage_ResetPasswordTextTest" description="ResetPasswordPage ResetPassword Text Test " finished-at="2023-02-08T17:50:00 IST" duration-ms="587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_ResetPasswordTextTest -->
-        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:50:00 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T17:50:01 IST" duration-ms="561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_TearDown -->
-        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:50:22 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T17:50:32 IST" duration-ms="9381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_SetUp -->
-        <test-method signature="resetPasswordPage_CurrentUrlTest()[pri:2, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:50:32 IST" name="resetPasswordPage_CurrentUrlTest" description="ResetPasswordPage CurrentUrl" finished-at="2023-02-08T17:50:32 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_CurrentUrlTest -->
-        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:50:32 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T17:50:32 IST" duration-ms="460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_TearDown -->
-        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:50:51 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T17:50:59 IST" duration-ms="7920" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_SetUp -->
-        <test-method signature="resetPasswordPage_EnterUserName_CancelTest()[pri:3, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:50:59 IST" name="resetPasswordPage_EnterUserName_CancelTest" description="ResetPasswordPage CancelButton Test" finished-at="2023-02-08T17:51:01 IST" duration-ms="2340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_EnterUserName_CancelTest -->
-        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:51:01 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T17:51:02 IST" duration-ms="462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_TearDown -->
-        <test-method is-config="true" signature="resetPasswordPage_SetUp()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:51:15 IST" name="resetPasswordPage_SetUp" finished-at="2023-02-08T17:51:26 IST" duration-ms="11503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_SetUp -->
-        <test-method signature="resetPasswordPage_EnterUserName_ResetPasswordTest()[pri:4, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:51:26 IST" name="resetPasswordPage_EnterUserName_ResetPasswordTest" description="ResetPasswordPage ResetPassword Button Test" finished-at="2023-02-08T17:51:27 IST" duration-ms="679" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_EnterUserName_ResetPasswordTest -->
-        <test-method is-config="true" signature="resetPasswordPage_TearDown()[pri:0, instance:com.TestCases.ResetPasswordTest@46d59067]" started-at="2023-02-08T17:51:27 IST" name="resetPasswordPage_TearDown" finished-at="2023-02-08T17:51:27 IST" duration-ms="470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPasswordPage_TearDown -->
-      </class> <!-- com.TestCases.ResetPasswordTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

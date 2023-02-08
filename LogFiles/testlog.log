@@ -3,3 +3,133 @@
 2023-02-08 17:57:20,577 - com.Log.Log -INFO - Property File Loaded Successfully
 2023-02-08 17:57:20,997 - com.Log.Log -INFO - Extent Reports Loaded Successfully
 2023-02-08 17:57:21,043 - com.Log.Log -INFO - Suite Started successfull
+2023-02-08 17:57:25,250 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:57:36,499 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:57:36,509 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:57:36,559 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfully
+2023-02-08 17:57:36,572 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:57:36,612 - com.Log.Log -INFO - LoginPage Title Validation Successfully - PASS
+2023-02-08 17:57:36,624 - com.Log.Log -INFO - Test Successfull
+2023-02-08 17:57:37,980 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:57:39,848 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:57:48,558 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:57:48,570 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:57:50,853 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:57:50,861 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:57:50,867 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+2023-02-08 17:57:50,874 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:57:51,259 - com.Log.Log -INFO - ResetPasswordPage ResetPaswword Text validation Successfull - PASS
+2023-02-08 17:57:51,267 - com.Log.Log -INFO - Test Successfull
+2023-02-08 17:57:52,019 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:57:54,052 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:58:03,706 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:58:03,719 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:58:06,531 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:58:07,320 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:58:07,327 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+2023-02-08 17:58:07,336 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:58:08,677 - com.Log.Log -INFO - SendPasswordResetPage Current Url validation Successfull - PASS
+2023-02-08 17:58:08,685 - com.Log.Log -INFO - Test Successfull
+2023-02-08 17:58:09,095 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:58:11,412 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:58:20,738 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:58:20,743 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:58:20,749 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfully
+2023-02-08 17:58:20,754 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:58:20,775 - com.Log.Log -INFO - LoginPage Current Url Validation Successfully - PASS
+2023-02-08 17:58:20,783 - com.Log.Log -INFO - Test Successfull
+2023-02-08 17:58:21,128 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:58:23,238 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:58:37,509 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:58:37,516 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:58:39,669 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:58:39,673 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:58:39,676 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+2023-02-08 17:58:39,682 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:58:39,707 - com.Log.Log -INFO - ResetPasswordPage ResetPaswword Link validation Successfull - PASS
+2023-02-08 17:58:39,712 - com.Log.Log -INFO - Test Successfull
+2023-02-08 17:58:40,174 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:58:42,158 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:59:02,546 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:59:02,552 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:04,525 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:05,447 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:05,451 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+2023-02-08 17:59:05,457 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:59:05,478 - com.Log.Log -WARN - Test Failed
+2023-02-08 17:59:05,926 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:59:11,252 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:59:27,786 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:59:27,792 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:27,799 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfully
+2023-02-08 17:59:27,804 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:59:29,005 - com.Log.Log -INFO - LoginPage OrangeHRM Logo Validation Successfully - PASS
+2023-02-08 17:59:29,012 - com.Log.Log -INFO - Test Successfull
+2023-02-08 17:59:29,499 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:59:31,128 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 17:59:38,611 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 17:59:38,613 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:40,411 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:40,417 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:40,426 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+2023-02-08 17:59:40,431 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 17:59:40,442 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:41,949 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:43,194 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 17:59:43,198 - com.Log.Log -INFO - Entered invalid userName for resetPassword successfully
+2023-02-08 17:59:43,207 - com.Log.Log -INFO - Test Successfull
+2023-02-08 17:59:43,632 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 17:59:45,629 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 18:00:12,894 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 18:00:12,898 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:00:12,902 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfully
+2023-02-08 18:00:12,906 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 18:00:14,819 - com.Log.Log -INFO - Entered Username and Password Successfully
+2023-02-08 18:00:14,829 - com.Log.Log -INFO - Test Successfull
+2023-02-08 18:00:15,652 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 18:00:17,455 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 18:00:27,857 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 18:00:27,861 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:00:29,680 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:00:29,684 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:00:29,689 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage Testing
+2023-02-08 18:00:29,694 - com.Log.Log -INFO - Test Started Successfull
+2023-02-08 18:00:30,458 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:00:30,462 - com.Log.Log -INFO - Entered Username for ResetPassword successfully
+2023-02-08 18:00:30,470 - com.Log.Log -INFO - Test Successfull
+2023-02-08 18:00:30,916 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 18:00:30,959 - com.Log.Log -INFO - Suite finished successfull
+2023-02-08 18:31:42,550 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:31:43,329 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-08 18:31:48,104 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 18:31:59,559 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 18:31:59,567 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:32:02,998 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:32:04,170 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:32:04,179 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+2023-02-08 18:32:05,125 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 18:34:15,092 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:34:15,664 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-08 18:34:23,778 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:34:24,312 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-08 18:34:45,043 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:34:45,559 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-08 18:34:50,860 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 18:34:53,707 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 18:34:53,718 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:35:58,108 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-08 18:35:58,133 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:36:01,451 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 18:36:07,772 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 18:40:27,919 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-08 18:40:27,987 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-08 18:40:31,897 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 18:40:38,624 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 18:40:41,381 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+2023-02-08 18:40:42,518 - com.Log.Log -INFO - SendPasswordResetPage Current Url validation Successfull - PASS
+2023-02-08 18:40:43,604 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-08 18:40:45,178 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-08 18:40:53,877 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-08 18:40:56,351 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
+2023-02-08 18:40:58,158 - com.Log.Log -INFO - SendPasswordResetPage text validation Successfull - PASS
+2023-02-08 18:40:58,577 - com.Log.Log -INFO - Applicaton closed successfully

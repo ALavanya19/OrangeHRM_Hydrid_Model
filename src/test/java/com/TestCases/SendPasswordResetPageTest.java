@@ -48,7 +48,8 @@ public class SendPasswordResetPageTest extends Base {
 		test.info("Validating SendPasswordRestPage Text");
 		String actual_SendPasswordRestPage=sendPassRestPage.sendPasswordRest();
 		String expected_SendPasswordRestPage="Reset Password link sent successfully";
-		if(actual_SendPasswordRestPage.contains(expected_SendPasswordRestPage)) {
+		System.out.println(actual_SendPasswordRestPage);
+		if(actual_SendPasswordRestPage.equals(expected_SendPasswordRestPage)) {
 			test.pass("SendPasswordResetPage text validation Successfull");
 			Log.info("SendPasswordResetPage text validation Successfull - PASS");
 		}

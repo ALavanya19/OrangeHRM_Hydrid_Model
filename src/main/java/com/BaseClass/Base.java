@@ -23,22 +23,19 @@ public class Base {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	
-	public Base() throws IOException{
-		
-		PropertiesClass.loadProperties(propFilePath);
-		Log.info("Property File Loaded Successfully");
-		
-	}
-	
+
 	@BeforeSuite
-	public void extentReportsInititation() {
+	public void extentReportsInititation() throws IOException {
 		extent=new ExtentReports();
 		ExtentHtmlReporter htmlReporter=new ExtentHtmlReporter("./ExtentReports/ohrmreports.html");
 		extent.attachReporter(htmlReporter);
 		Log.info("Extent Reports Loaded Successfully");
+		
+		PropertiesClass.loadProperties(propFilePath);
+		Log.info("Property File Loaded Successfully");
 	}
 	
-	public static void setUp() throws IOException {
+	public void setUp() throws IOException {
 		
 		String browserName=PropertiesClass.getProperties("browserName");
 		if(browserName.equalsIgnoreCase("chrome")) {
@@ -70,7 +67,7 @@ public class Base {
 		
 	}
 	
-	public static void tearDown() {
+	public void tearDown() {
 		driver.quit();
 		Log.info("Applicaton closed successfully");
 	}
