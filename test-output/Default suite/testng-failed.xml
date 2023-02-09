@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestCases.SendPasswordResetPageTest">
+      <class name="com.TestCases.HomePageTest">
         <methods>
           <include name="extentReportsInititation"/>
-          <include name="sendPasswordRestTest"/>
-          <include name="resetPasswordPage_SetUp"/>
-          <include name="sendPasswordResetPageCurrentUrlTest"/>
-          <include name="resetPasswordPage_TearDown"/>
+          <include name="homePage_TearDown"/>
+          <include name="homePage_homePage_UserDropDownListButton_ValidationTest"/>
+          <include name="homePage_SetUp"/>
+          <include name="homePage_UserDropDownAbout_ValidationTest"/>
         </methods>
-      </class> <!-- com.TestCases.SendPasswordResetPageTest -->
+      </class> <!-- com.TestCases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

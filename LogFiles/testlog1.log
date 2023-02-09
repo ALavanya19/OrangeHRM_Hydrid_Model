@@ -133,3 +133,315 @@
 [main] INFO com.Log.Log - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
 [main] INFO com.Log.Log - SendPasswordResetPage text validation Successfull - PASS
 [main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Suite Started successfull
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Current Url Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage OrangeHRM Logo Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Admin clicked and Navigated to Admin Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage PIM clicked and Navigated to PIM Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Leave clicked and Navigated to Leave Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Dashboard clicked and Navigated to Dashboard Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Current Active Page Text Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] WARN com.Log.Log - Test Failed
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserProfilrPhoto Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Logged in UserName Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] WARN com.Log.Log - Test Failed
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] WARN com.Log.Log - Test Failed
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] WARN com.Log.Log - Test Failed
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Suite Started successfull
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] WARN com.Log.Log - Test Failed
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Current Url Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage OrangeHRM Logo Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Admin clicked and Navigated to Admin Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage PIM clicked and Navigated to PIM Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Leave clicked and Navigated to Leave Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Dashboard clicked and Navigated to Dashboard Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Current Active Page Text Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserProfilrPhoto Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Logged in UserName Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - Test Skipped
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - Test Skipped
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - Test Skipped
+[main] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Suite Started successfull
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserDropDown Button Clicked
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Suite Started successfull
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserProfilrPhoto Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Suite Started successfull
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserDropDown Button Clicked
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] WARN com.Log.Log - Test Failed
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Suite Started successfull
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserDropDown Button Clicked
+[main] INFO com.Log.Log - HomePage UserDropDown About Text Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Suite finished successfull
+[main] INFO com.Log.Log - Extent Reports Loaded Successfully
+[main] INFO com.Log.Log - Property File Loaded Successfully
+[main] INFO com.Log.Log - Suite Started successfull
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Current Url Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage OrangeHRM Logo Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Admin clicked and Navigated to Admin Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage PIM clicked and Navigated to PIM Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Leave clicked and Navigated to Leave Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Dashboard clicked and Navigated to Dashboard Page Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Current Active Page Text Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserProfilrPhoto Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage Logged in UserName Validation Validation Successfull - FAIL
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserDropDown Button Clicked
+[main] INFO com.Log.Log - HomePage UserDropDown About Text Validation Successfull - PASS
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserDropDown Button Clicked
+[main] INFO com.Log.Log - HomePage UserDropDown Support Mail Validation Successfull - FAIL
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Chrome Browser Launched Successfully
+[main] INFO com.Log.Log - Application Launched Successfully
+[main] INFO com.Log.Log - OrangeHRM application Logged in for HomePage Test validations
+[main] INFO com.Log.Log - Test Started Successfull
+[main] INFO com.Log.Log - HomePage UserDropDown Button Clicked
+[main] INFO com.Log.Log - HomePage Logout Clicked Successfully
+[main] INFO com.Log.Log - Test Successfull
+[main] INFO com.Log.Log - Applicaton closed successfully
+[main] INFO com.Log.Log - Suite finished successfull

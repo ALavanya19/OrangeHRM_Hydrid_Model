@@ -133,3 +133,315 @@
 2023-02-08 18:40:56,351 - com.Log.Log -INFO - OrangeHRM Application LoginPage Launched Successfull for ResetPasswordPage sendResetPass link Testing
 2023-02-08 18:40:58,158 - com.Log.Log -INFO - SendPasswordResetPage text validation Successfull - PASS
 2023-02-08 18:40:58,577 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:14:01,603 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-09 12:14:01,804 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-09 12:14:01,823 - com.Log.Log -INFO - Suite Started successfull
+2023-02-09 12:14:11,932 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:14:29,875 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:14:31,774 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:14:31,791 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:14:33,167 - com.Log.Log -INFO - HomePage Current Url Validation Successfull - PASS
+2023-02-09 12:14:33,181 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:14:34,310 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:14:36,614 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:14:49,019 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:14:50,417 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:14:50,425 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:14:52,862 - com.Log.Log -INFO - HomePage OrangeHRM Logo Validation Successfull - PASS
+2023-02-09 12:14:52,874 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:14:53,762 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:14:57,122 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:15:03,507 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:15:05,118 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:15:05,123 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:15:09,425 - com.Log.Log -INFO - HomePage Admin clicked and Navigated to Admin Page Successfully
+2023-02-09 12:15:09,434 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:15:10,090 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:15:12,576 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:15:24,932 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:15:27,096 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:15:27,104 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:15:31,650 - com.Log.Log -INFO - HomePage PIM clicked and Navigated to PIM Page Successfully
+2023-02-09 12:15:31,658 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:15:32,223 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:15:33,874 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:15:42,835 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:15:45,833 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:15:45,838 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:15:48,254 - com.Log.Log -INFO - HomePage Leave clicked and Navigated to Leave Page Successfully
+2023-02-09 12:15:48,263 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:15:48,791 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:15:50,546 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:15:56,620 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:15:59,473 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:15:59,477 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:16:01,325 - com.Log.Log -INFO - HomePage Dashboard clicked and Navigated to Dashboard Page Successfully
+2023-02-09 12:16:01,333 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:16:01,967 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:16:04,381 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:16:13,111 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:16:14,597 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:16:14,601 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:16:17,105 - com.Log.Log -INFO - HomePage Current Active Page Text Validation Successfull - PASS
+2023-02-09 12:16:17,115 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:16:17,629 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:16:19,181 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:16:26,308 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:16:27,868 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:16:27,874 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:16:44,368 - com.Log.Log -WARN - Test Failed
+2023-02-09 12:16:44,840 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:16:46,821 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:16:53,546 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:16:55,033 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:16:55,037 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:16:57,627 - com.Log.Log -INFO - HomePage UserProfilrPhoto Validation Successfull - PASS
+2023-02-09 12:16:57,637 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:16:58,189 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:16:59,712 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:17:08,008 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:17:09,646 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:17:09,650 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:17:12,636 - com.Log.Log -INFO - HomePage Logged in UserName Validation Successfull - PASS
+2023-02-09 12:17:12,642 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:17:13,089 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:17:14,632 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:17:22,383 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:17:24,131 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:17:24,137 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:17:40,678 - com.Log.Log -WARN - Test Failed
+2023-02-09 12:17:41,229 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:17:43,301 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:17:50,213 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:17:51,974 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:17:51,979 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:18:08,529 - com.Log.Log -WARN - Test Failed
+2023-02-09 12:18:09,038 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:18:10,942 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:18:18,159 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:18:19,441 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:18:19,447 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:18:36,035 - com.Log.Log -WARN - Test Failed
+2023-02-09 12:18:36,587 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:18:36,800 - com.Log.Log -INFO - Suite finished successfull
+2023-02-09 12:21:52,928 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-09 12:21:52,969 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-09 12:21:52,987 - com.Log.Log -INFO - Suite Started successfull
+2023-02-09 12:21:56,572 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:22:04,019 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:22:07,302 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:22:07,312 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:22:22,421 - com.Log.Log -WARN - Test Failed
+2023-02-09 12:22:23,571 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:22:25,729 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:22:48,418 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:22:50,321 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:22:50,328 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:22:51,983 - com.Log.Log -INFO - HomePage Current Url Validation Successfull - PASS
+2023-02-09 12:22:51,994 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:22:52,519 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:22:54,362 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:23:03,208 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:23:04,633 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:23:04,638 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:23:07,020 - com.Log.Log -INFO - HomePage OrangeHRM Logo Validation Successfull - PASS
+2023-02-09 12:23:07,030 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:23:07,423 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:23:09,010 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:23:18,963 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:23:20,111 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:23:20,119 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:23:23,862 - com.Log.Log -INFO - HomePage Admin clicked and Navigated to Admin Page Successfully
+2023-02-09 12:23:23,871 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:23:24,251 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:23:25,841 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:23:34,819 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:23:36,126 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:23:36,131 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:23:39,823 - com.Log.Log -INFO - HomePage PIM clicked and Navigated to PIM Page Successfully
+2023-02-09 12:23:39,832 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:23:40,270 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:23:41,866 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:23:51,069 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:23:52,707 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:23:52,715 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:23:57,032 - com.Log.Log -INFO - HomePage Leave clicked and Navigated to Leave Page Successfully
+2023-02-09 12:23:57,044 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:23:57,434 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:23:59,052 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:24:08,467 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:24:09,821 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:24:09,827 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:24:13,245 - com.Log.Log -INFO - HomePage Dashboard clicked and Navigated to Dashboard Page Successfully
+2023-02-09 12:24:13,251 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:24:13,653 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:24:15,200 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:24:23,502 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:24:24,946 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:24:24,950 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:24:27,270 - com.Log.Log -INFO - HomePage Current Active Page Text Validation Successfull - PASS
+2023-02-09 12:24:27,278 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:24:27,653 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:24:29,137 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:24:53,444 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:24:56,002 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:24:56,008 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:24:58,620 - com.Log.Log -INFO - HomePage UserProfilrPhoto Validation Successfull - PASS
+2023-02-09 12:24:58,628 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:25:00,055 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:25:01,894 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:25:20,181 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:25:21,745 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:25:21,749 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:25:24,940 - com.Log.Log -INFO - HomePage Logged in UserName Validation Successfull - PASS
+2023-02-09 12:25:24,946 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:25:25,355 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:25:25,363 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:25:25,380 - com.Log.Log -INFO - Test Skipped
+2023-02-09 12:25:25,400 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:25:25,453 - com.Log.Log -INFO - Test Skipped
+2023-02-09 12:25:25,466 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:25:25,496 - com.Log.Log -INFO - Test Skipped
+2023-02-09 12:25:25,629 - com.Log.Log -INFO - Suite finished successfull
+2023-02-09 12:29:30,294 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-09 12:29:30,325 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-09 12:29:30,347 - com.Log.Log -INFO - Suite Started successfull
+2023-02-09 12:29:33,365 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:29:56,987 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:29:58,303 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:29:58,317 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:30:00,519 - com.Log.Log -INFO - HomePage UserDropDown Button Clicked
+2023-02-09 12:30:00,529 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:30:01,831 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:30:01,885 - com.Log.Log -INFO - Suite finished successfull
+2023-02-09 12:30:13,761 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-09 12:30:13,790 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-09 12:30:13,814 - com.Log.Log -INFO - Suite Started successfull
+2023-02-09 12:30:17,121 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:30:37,382 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:30:39,987 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:30:40,002 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:30:42,267 - com.Log.Log -INFO - HomePage UserProfilrPhoto Validation Successfull - PASS
+2023-02-09 12:30:42,279 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:30:43,284 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:30:43,335 - com.Log.Log -INFO - Suite finished successfull
+2023-02-09 12:31:19,278 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-09 12:31:19,313 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-09 12:31:19,335 - com.Log.Log -INFO - Suite Started successfull
+2023-02-09 12:31:22,638 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:31:36,748 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:31:38,995 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:31:39,006 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:31:41,295 - com.Log.Log -INFO - HomePage UserDropDown Button Clicked
+2023-02-09 12:31:41,307 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:31:42,447 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:31:44,255 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:31:52,845 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:31:54,395 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:31:54,410 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:32:11,024 - com.Log.Log -WARN - Test Failed
+2023-02-09 12:32:11,549 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:32:11,628 - com.Log.Log -INFO - Suite finished successfull
+2023-02-09 12:35:53,248 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-09 12:35:53,286 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-09 12:35:53,312 - com.Log.Log -INFO - Suite Started successfull
+2023-02-09 12:35:57,368 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:36:06,692 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:36:08,318 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:36:08,337 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:36:11,862 - com.Log.Log -INFO - HomePage UserDropDown Button Clicked
+2023-02-09 12:36:13,112 - com.Log.Log -INFO - HomePage UserDropDown About Text Validation Successfull - PASS
+2023-02-09 12:36:13,123 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:36:15,331 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:36:15,380 - com.Log.Log -INFO - Suite finished successfull
+2023-02-09 12:36:26,435 - com.Log.Log -INFO - Extent Reports Loaded Successfully
+2023-02-09 12:36:26,452 - com.Log.Log -INFO - Property File Loaded Successfully
+2023-02-09 12:36:26,473 - com.Log.Log -INFO - Suite Started successfull
+2023-02-09 12:36:30,159 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:36:37,257 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:36:40,802 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:36:40,817 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:36:40,867 - com.Log.Log -INFO - HomePage Current Url Validation Successfull - PASS
+2023-02-09 12:36:40,878 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:36:41,869 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:36:43,446 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:36:51,194 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:36:53,224 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:36:53,232 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:36:56,102 - com.Log.Log -INFO - HomePage OrangeHRM Logo Validation Successfull - PASS
+2023-02-09 12:36:56,114 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:36:56,557 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:36:58,417 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:37:06,872 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:37:08,455 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:37:08,464 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:37:12,985 - com.Log.Log -INFO - HomePage Admin clicked and Navigated to Admin Page Successfully
+2023-02-09 12:37:12,993 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:37:13,392 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:37:14,951 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:37:27,942 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:37:29,511 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:37:29,523 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:37:33,285 - com.Log.Log -INFO - HomePage PIM clicked and Navigated to PIM Page Successfully
+2023-02-09 12:37:33,293 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:37:33,750 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:37:35,294 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:37:48,048 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:37:50,030 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:37:50,036 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:37:53,912 - com.Log.Log -INFO - HomePage Leave clicked and Navigated to Leave Page Successfully
+2023-02-09 12:37:53,922 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:37:54,360 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:37:55,998 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:38:16,290 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:38:19,917 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:38:19,923 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:38:21,319 - com.Log.Log -INFO - HomePage Dashboard clicked and Navigated to Dashboard Page Successfully
+2023-02-09 12:38:21,328 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:38:21,886 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:38:23,366 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:38:41,946 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:38:43,476 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:38:43,483 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:38:55,144 - com.Log.Log -INFO - HomePage Current Active Page Text Validation Successfull - PASS
+2023-02-09 12:38:55,149 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:38:56,523 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:38:59,044 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:39:06,348 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:39:08,026 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:39:08,032 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:39:10,486 - com.Log.Log -INFO - HomePage UserProfilrPhoto Validation Successfull - PASS
+2023-02-09 12:39:10,492 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:39:10,962 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:39:12,573 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:39:19,185 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:39:20,932 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:39:20,948 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:39:23,133 - com.Log.Log -INFO - HomePage Logged in UserName Validation Validation Successfull - FAIL
+2023-02-09 12:39:23,141 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:39:23,544 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:39:25,093 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:39:36,622 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:39:37,989 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:39:37,994 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:39:40,633 - com.Log.Log -INFO - HomePage UserDropDown Button Clicked
+2023-02-09 12:39:41,688 - com.Log.Log -INFO - HomePage UserDropDown About Text Validation Successfull - PASS
+2023-02-09 12:39:41,693 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:39:42,247 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:39:43,864 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:39:54,381 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:39:56,640 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:39:56,645 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:39:59,489 - com.Log.Log -INFO - HomePage UserDropDown Button Clicked
+2023-02-09 12:40:01,450 - com.Log.Log -INFO - HomePage UserDropDown Support Mail Validation Successfull - FAIL
+2023-02-09 12:40:01,456 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:40:01,990 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:40:03,731 - com.Log.Log -INFO - Chrome Browser Launched Successfully
+2023-02-09 12:40:13,546 - com.Log.Log -INFO - Application Launched Successfully
+2023-02-09 12:40:15,121 - com.Log.Log -INFO - OrangeHRM application Logged in for HomePage Test validations
+2023-02-09 12:40:15,128 - com.Log.Log -INFO - Test Started Successfull
+2023-02-09 12:40:17,418 - com.Log.Log -INFO - HomePage UserDropDown Button Clicked
+2023-02-09 12:40:19,219 - com.Log.Log -INFO - HomePage Logout Clicked Successfully
+2023-02-09 12:40:19,229 - com.Log.Log -INFO - Test Successfull
+2023-02-09 12:40:19,901 - com.Log.Log -INFO - Applicaton closed successfully
+2023-02-09 12:40:19,967 - com.Log.Log -INFO - Suite finished successfull
