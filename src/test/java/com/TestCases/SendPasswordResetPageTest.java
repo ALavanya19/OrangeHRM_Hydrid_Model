@@ -17,10 +17,6 @@ import com.Log.Log;
 
 public class SendPasswordResetPageTest extends Base {
 
-	public SendPasswordResetPageTest() throws IOException {
-		super();
-		
-	}
 
 	LoginPage loginPage;
 	ResetPasswordPage resetPassPage;

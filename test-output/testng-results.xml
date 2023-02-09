@@ -1,161 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-09T12:36:26 IST" name="Default suite" finished-at="2023-02-09T12:40:19 IST" duration-ms="233450">
+  <suite started-at="2023-02-09T17:54:31 IST" name="Default suite" finished-at="2023-02-09T17:56:34 IST" duration-ms="123508">
     <groups>
     </groups>
-    <test started-at="2023-02-09T12:36:26 IST" name="Default test" finished-at="2023-02-09T12:40:19 IST" duration-ms="233450">
-      <class name="com.TestCases.HomePageTest">
-        <test-method is-config="true" signature="extentReportsInititation()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:25 IST" name="extentReportsInititation" finished-at="2023-02-09T12:36:26 IST" duration-ms="561" status="PASS">
+    <test started-at="2023-02-09T17:54:31 IST" name="Default test" finished-at="2023-02-09T17:56:34 IST" duration-ms="123508">
+      <class name="com.TestCases.PIMAddEmployeeTest">
+        <test-method is-config="true" signature="extentReportsInititation()[pri:0, instance:com.TestCases.PIMAddEmployeeTest@5a45133e]" started-at="2023-02-09T17:54:30 IST" name="extentReportsInititation" finished-at="2023-02-09T17:54:31 IST" duration-ms="1185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportsInititation -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:26 IST" name="homePage_SetUp" finished-at="2023-02-09T12:36:40 IST" duration-ms="14270" status="PASS">
+        <test-method is-config="true" signature="homePimPage_SetUp()[pri:0, instance:com.TestCases.PIMAddEmployeeTest@5a45133e]" started-at="2023-02-09T17:54:31 IST" name="homePimPage_SetUp" finished-at="2023-02-09T17:54:54 IST" duration-ms="23050" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_CurrentUrl_ValidationTest()[pri:1, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:40 IST" name="homePage_CurrentUrl_ValidationTest" description="HomePage Current Url Test" finished-at="2023-02-09T12:36:40 IST" duration-ms="61" status="PASS">
+        </test-method> <!-- homePimPage_SetUp -->
+        <test-method signature="addEmployee_CreateEmployee_Test()[pri:0, instance:com.TestCases.PIMAddEmployeeTest@5a45133e]" started-at="2023-02-09T17:54:54 IST" name="addEmployee_CreateEmployee_Test" finished-at="2023-02-09T17:56:26 IST" duration-ms="92264" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePage_CurrentUrl_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:40 IST" name="homePage_TearDown" finished-at="2023-02-09T12:36:41 IST" duration-ms="991" status="PASS">
+        </test-method> <!-- addEmployee_CreateEmployee_Test -->
+        <test-method is-config="true" signature="homePimPage_TearDown()[pri:0, instance:com.TestCases.PIMAddEmployeeTest@5a45133e]" started-at="2023-02-09T17:56:26 IST" name="homePimPage_TearDown" finished-at="2023-02-09T17:56:34 IST" duration-ms="8012" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:41 IST" name="homePage_SetUp" finished-at="2023-02-09T12:36:53 IST" duration-ms="11350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_OrangeHRMLogo_ValidationTest()[pri:2, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:53 IST" name="homePage_OrangeHRMLogo_ValidationTest" description="HomePage OrangeHRM Logo Validation Test" finished-at="2023-02-09T12:36:56 IST" duration-ms="2876" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_OrangeHRMLogo_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:56 IST" name="homePage_TearDown" finished-at="2023-02-09T12:36:56 IST" duration-ms="442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:36:56 IST" name="homePage_SetUp" finished-at="2023-02-09T12:37:08 IST" duration-ms="11896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_Admin_ValidationTest()[pri:3, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:08 IST" name="homePage_Admin_ValidationTest" description="HomePage Admin Element Validation Test" finished-at="2023-02-09T12:37:12 IST" duration-ms="4528" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_Admin_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:12 IST" name="homePage_TearDown" finished-at="2023-02-09T12:37:13 IST" duration-ms="399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:13 IST" name="homePage_SetUp" finished-at="2023-02-09T12:37:29 IST" duration-ms="16116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_PIM_ValidationTest()[pri:4, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:29 IST" name="homePage_PIM_ValidationTest" description="HomePage PIM Element Validation Test" finished-at="2023-02-09T12:37:33 IST" duration-ms="3772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_PIM_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:33 IST" name="homePage_TearDown" finished-at="2023-02-09T12:37:33 IST" duration-ms="456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:33 IST" name="homePage_SetUp" finished-at="2023-02-09T12:37:50 IST" duration-ms="16280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_Leave_ValidationTest()[pri:5, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:50 IST" name="homePage_Leave_ValidationTest" description="HomePage Leave Element Validation Test" finished-at="2023-02-09T12:37:53 IST" duration-ms="3881" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_Leave_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:53 IST" name="homePage_TearDown" finished-at="2023-02-09T12:37:54 IST" duration-ms="437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:37:54 IST" name="homePage_SetUp" finished-at="2023-02-09T12:38:19 IST" duration-ms="25556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_DashboardValidationTest()[pri:6, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:38:19 IST" name="homePage_DashboardValidationTest" description="HomePage Dashboard Element Validation Test" finished-at="2023-02-09T12:38:21 IST" duration-ms="1402" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_DashboardValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:38:21 IST" name="homePage_TearDown" finished-at="2023-02-09T12:38:21 IST" duration-ms="558" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:38:21 IST" name="homePage_SetUp" finished-at="2023-02-09T12:38:43 IST" duration-ms="21588" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_CurrentActivePage_ValidationTest()[pri:7, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:38:43 IST" name="homePage_CurrentActivePage_ValidationTest" description="HomePage Current Active Page text Validation" finished-at="2023-02-09T12:38:55 IST" duration-ms="11668" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_CurrentActivePage_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:38:55 IST" name="homePage_TearDown" finished-at="2023-02-09T12:38:56 IST" duration-ms="1373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:38:56 IST" name="homePage_SetUp" finished-at="2023-02-09T12:39:08 IST" duration-ms="11501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_UserProfilePhoto_ValidationTest()[pri:8, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:08 IST" name="homePage_UserProfilePhoto_ValidationTest" description="HomePage UserProfilePhoto Validation" finished-at="2023-02-09T12:39:10 IST" duration-ms="2461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_UserProfilePhoto_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:10 IST" name="homePage_TearDown" finished-at="2023-02-09T12:39:10 IST" duration-ms="470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:10 IST" name="homePage_SetUp" finished-at="2023-02-09T12:39:20 IST" duration-ms="9967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_LoggedInUserName_ValidationTest()[pri:9, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:20 IST" name="homePage_LoggedInUserName_ValidationTest" description="HomePage Logged In UserName Validation" finished-at="2023-02-09T12:39:23 IST" duration-ms="2200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_LoggedInUserName_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:23 IST" name="homePage_TearDown" finished-at="2023-02-09T12:39:23 IST" duration-ms="402" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:23 IST" name="homePage_SetUp" finished-at="2023-02-09T12:39:37 IST" duration-ms="14444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_UserDropDownAbout_ValidationTest()[pri:10, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:37 IST" name="homePage_UserDropDownAbout_ValidationTest" description="HomePage UserDropDown About Text Validation" finished-at="2023-02-09T12:39:41 IST" duration-ms="3699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_UserDropDownAbout_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:41 IST" name="homePage_TearDown" finished-at="2023-02-09T12:39:42 IST" duration-ms="558" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:42 IST" name="homePage_SetUp" finished-at="2023-02-09T12:39:56 IST" duration-ms="14386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_UserDropDownSupport_ValidationTest()[pri:11, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:39:56 IST" name="homePage_UserDropDownSupport_ValidationTest" description="HomePage UserDropDown Support Mail Validation" finished-at="2023-02-09T12:40:01 IST" duration-ms="4810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_UserDropDownSupport_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:40:01 IST" name="homePage_TearDown" finished-at="2023-02-09T12:40:01 IST" duration-ms="534" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-        <test-method is-config="true" signature="homePage_SetUp()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:40:01 IST" name="homePage_SetUp" finished-at="2023-02-09T12:40:15 IST" duration-ms="13130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_SetUp -->
-        <test-method signature="homePage_UserDropDownLogout_ValidationTest()[pri:12, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:40:15 IST" name="homePage_UserDropDownLogout_ValidationTest" description="HomePage Logout Option Validation" finished-at="2023-02-09T12:40:19 IST" duration-ms="4098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_UserDropDownLogout_ValidationTest -->
-        <test-method is-config="true" signature="homePage_TearDown()[pri:0, instance:com.TestCases.HomePageTest@1ed6388a]" started-at="2023-02-09T12:40:19 IST" name="homePage_TearDown" finished-at="2023-02-09T12:40:19 IST" duration-ms="672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage_TearDown -->
-      </class> <!-- com.TestCases.HomePageTest -->
+        </test-method> <!-- homePimPage_TearDown -->
+      </class> <!-- com.TestCases.PIMAddEmployeeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

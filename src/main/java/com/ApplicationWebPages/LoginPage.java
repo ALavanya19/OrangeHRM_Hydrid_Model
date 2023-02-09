@@ -26,6 +26,10 @@ public class LoginPage extends Base{
 	@FindBy(xpath="//img[@alt='company-branding']")
 	WebElement orangeHRMLogoE;
 	
+	//Login Label Text
+	@FindBy(xpath="//*[@class='oxd-text oxd-text--h5 orangehrm-login-title']")
+	WebElement loginLabelTextE;
+	
 	//UserName Element 
 	@FindBy(xpath="//input[@name='username']")
 	WebElement userNameE;
@@ -64,6 +68,11 @@ public class LoginPage extends Base{
 		
 	   return orangeHRMLogoE.isDisplayed();
 	      
+	}
+	
+	//Login Panel Text
+	public String loginLabelText() {
+		return loginLabelTextE.getText();
 	}
 	
 	//validating LoginPage Login

@@ -22,12 +22,6 @@ import com.aventstack.extentreports.ExtentTest;
 
 @Listeners(com.Listeners.Listeners.class)
 public class HomePageTest extends Base {
-
-	
-	
-	public HomePageTest() {
-		super();
-	}
 	
 	LoginPage loginPage;
 	HomeAdminPage homeAdminPage;
@@ -48,8 +42,8 @@ public class HomePageTest extends Base {
 	}
 	
 	@AfterMethod
-	public void homePage_TearDown() {
-		
+	public void homePage_TearDown() throws IOException {
+		loginPage=homePage.homePage_UserDropDownLogout_Validation();
 		extent.flush();
 		tearDown();
 	}
@@ -177,10 +171,6 @@ public class HomePageTest extends Base {
 	public void homePage_UserDropDownAbout_ValidationTest() {
 		test=extent.createTest("HomePage UserDropDown About Text Validation");
 		test.info("HomePage UserDropDown About Text Validation");
-		test=extent.createTest("HomePage UserDropDown Button Validation");
-		test.info("HomePage UserDropDown Button Validation");
-		homePage.homePage_UserDropDownListButton_Validation();
-		Log.info("HomePage UserDropDown Button Clicked");
 		
 		String actual_UserDropDownAboutLabelText=homePage.homePage_UserDropDownAbout_Validation();
 		String expected_UserDropDownAboutLabelText="About";
@@ -200,9 +190,7 @@ public class HomePageTest extends Base {
 	public void homePage_UserDropDownSupport_ValidationTest() {
 		test=extent.createTest("HomePage UserDropDown Support Mail Validation");
 		test.info("HomePage UserDropDown Support Mail Validation");
-		test=extent.createTest("HomePage UserDropDown Button Validation");
-		test.info("HomePage UserDropDown Button Validation");
-		homePage.homePage_UserDropDownListButton_Validation();
+	
 		Log.info("HomePage UserDropDown Button Clicked");
 		String actual_UserDropDownSupportEmailID=homePage.homePage_UserDropDownSupport_Validation();
 		String expected_UserDropDownAboutLabelText=" ossupport@orangehrm.com ";
@@ -218,13 +206,11 @@ public class HomePageTest extends Base {
 		
 	}
 	
-	@Test(priority = 12,description = "HomePage Logout Option Validation")
+	//@Test(priority = 12,description = "HomePage Logout Option Validation")
 	public void homePage_UserDropDownLogout_ValidationTest() throws IOException {
 		test=extent.createTest("HomePage Logout option Validation");
 		test.info("HomePage Logout option Validation");
-		test=extent.createTest("HomePage UserDropDown Button Validation");
-		test.info("HomePage UserDropDown Button Validation");
-		homePage.homePage_UserDropDownListButton_Validation();
+		
 		Log.info("HomePage UserDropDown Button Clicked");
 		homePage.homePage_UserDropDownLogout_Validation();
 		Log.info("HomePage Logout Clicked Successfully");

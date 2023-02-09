@@ -23,6 +23,7 @@ public class Base {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	
+	
 
 	@BeforeSuite
 	public void extentReportsInititation() throws IOException {

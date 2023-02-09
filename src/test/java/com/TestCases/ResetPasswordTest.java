@@ -20,9 +20,6 @@ import com.Log.Log;
 
 public class ResetPasswordTest extends Base{
 	
-	public ResetPasswordTest() throws IOException {
-	    super();
-	}
 
 	LoginPage loginPage;
 	ResetPasswordPage resetPassPage;

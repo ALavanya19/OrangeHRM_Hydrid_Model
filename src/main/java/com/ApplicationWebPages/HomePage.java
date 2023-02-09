@@ -279,13 +279,7 @@ public class HomePage extends Base {
     	return menuNameE.getText();
     }
     
-    
-    public void homePage_UserDropDownListButton_Validation() {
-    	
-    	userDropDownButtonE.click();
-    	 
-    }
-    
+   
     public boolean homePage_UserProfilePhoto_Validation() {
     	
     	return userProfilePhotoE.isDisplayed();
@@ -296,8 +290,15 @@ public class HomePage extends Base {
     	return userNameE.getText();
     }
     
+  private void homePage_UserDropDownListButton_Validation() {
+    	
+    	userDropDownButtonE.click();
+    	 
+    }
+    
     public String homePage_UserDropDownAbout_Validation() {
     	
+    	homePage_UserDropDownListButton_Validation();
     	userDropDownAboutE.click();
     	
     	String data=userDropAboutLabelTextE.getText();
@@ -307,19 +308,20 @@ public class HomePage extends Base {
     }
     
     public String homePage_UserDropDownSupport_Validation() {
-    	
+    	homePage_UserDropDownListButton_Validation();
     	userDropDownSupportE.click();
     	return userDropDownSupportLinkE.getText();
     	
     }
 	
     public HomePIMChangePasswordPage homePage_UserDropDownChangePassword_Validation() {
-    	
+    	homePage_UserDropDownListButton_Validation();
     	userDropDownChangePasswordE.click();
     	return new HomePIMChangePasswordPage();
     }
     
     public LoginPage homePage_UserDropDownLogout_Validation() throws IOException {
+    	homePage_UserDropDownListButton_Validation();
     	userDropDownLogOutE.click();
     	return new LoginPage();
     }

@@ -43,7 +43,7 @@ public class ExcelCommands {
 	public static void excelSave(String excelSaveFilePath) throws IOException {
 		excelSaveFile=new FileOutputStream(excelSaveFilePath);
 		workbook.write(excelSaveFile);
-		
+		excelSaveFile.close();
 	}
 	
 }

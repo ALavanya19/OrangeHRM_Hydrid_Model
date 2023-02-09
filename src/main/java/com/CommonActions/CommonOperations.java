@@ -1,5 +1,8 @@
 package com.CommonActions;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 
@@ -9,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.BaseClass.Base;
 
@@ -45,6 +49,17 @@ public class CommonOperations{
 	
 		JavascriptExecutor js=((JavascriptExecutor)driver);
 	    js.executeScript("arguments[0].style.border='3px solid red'",element);
+		
+	}
+	
+	public static Robot keyboardOperationsUsingRobotClass() throws AWTException {
+		
+		return new Robot();
+
+	}
+	
+	public static Actions keyboardOperationsUsingActionsClass(WebDriver driver) {
+		return new Actions(driver);
 		
 	}
 	
