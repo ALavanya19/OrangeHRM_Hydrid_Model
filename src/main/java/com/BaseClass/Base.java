@@ -31,7 +31,6 @@ public class Base {
 		ExtentHtmlReporter htmlReporter=new ExtentHtmlReporter("./ExtentReports/ohrmreports.html");
 		extent.attachReporter(htmlReporter);
 		Log.info("Extent Reports Loaded Successfully");
-		
 		PropertiesClass.loadProperties(propFilePath);
 		Log.info("Property File Loaded Successfully");
 	}

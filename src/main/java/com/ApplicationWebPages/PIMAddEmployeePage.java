@@ -1,18 +1,24 @@
 package com.ApplicationWebPages;
 
 import java.awt.AWTException;
+import java.awt.RenderingHints.Key;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.BaseClass.Base;
 import com.CommonActions.CommonOperations;
+import com.Log.Log;
 
 public class PIMAddEmployeePage extends Base{
 
@@ -27,15 +33,15 @@ public class PIMAddEmployeePage extends Base{
 	WebElement addEmployeeLabelTextE;
 	
 	//FirstName Element
-	@FindBy(xpath="//*[@class='oxd-input oxd-input--active orangehrm-firstname']")
+	@FindBy(xpath="//*[@name='firstName']")
 	WebElement firstNameE;
 	
 	//MiddleName Element
-	@FindBy(xpath="//*[@class='oxd-input oxd-input--active orangehrm-middlename']")
+	@FindBy(xpath="//*[@name='middleName']")
 	WebElement middleNameE;
 	
 	//LastName Elment
-	@FindBy(xpath="//*[@class='oxd-input oxd-input--active orangehrm-lastname']")
+	@FindBy(xpath="//*[@name='lastName']")
 	WebElement lastNameE;
 	
 	//EmployeeId element
@@ -58,6 +64,10 @@ public class PIMAddEmployeePage extends Base{
 	@FindBy(xpath="//*[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
 	WebElement saveButtonE;
 	
+	//Personal Details Page Label Text
+	@FindBy(xpath="//*[@class='oxd-text oxd-text--h6 orangehrm-main-title' and text()='Personal Details']")
+	WebElement personalDetailsLabelTextE;
+	
 	
 	//Business Logic
 	//Pim Add Employee Page URL test
@@ -71,49 +81,49 @@ public class PIMAddEmployeePage extends Base{
 	}
 	
 	//
-	public void addEmployee_CreateEmployee() throws AWTException, InterruptedException {
+	public AddEmpPersonalDetailsPage addEmployee_CreateEmployee(String firstName,String middleName,String lastName) throws AWTException, InterruptedException, IOException {
 		
-		CommonOperations.sendKeys(firstNameE, "Ad");
-		CommonOperations.sendKeys(middleNameE, "Le");
-		CommonOperations.sendKeys(lastNameE, "Ch");
+
+		
+		CommonOperations.sendKeys(firstNameE, firstName);
+		CommonOperations.checkMandatoryFieldsEnteredOrNot(firstNameE);
+		
+		CommonOperations.sendKeys(middleNameE, middleName);
+		CommonOperations.checkMandatoryFieldsEnteredOrNot(middleNameE);
+		
+		CommonOperations.sendKeys(lastNameE, lastName);
+		CommonOperations.checkMandatoryFieldsEnteredOrNot(lastNameE);
+		
+		String employeeID=employeeIDE.getAttribute("value");
+		
 		Robot rt=CommonOperations.keyboardOperationsUsingRobotClass();
+		
 		rt.keyPress(KeyEvent.VK_SHIFT);
 		rt.keyPress(KeyEvent.VK_TAB);
-		Thread.sleep(15000);
+		rt.keyPress(KeyEvent.VK_SHIFT);
 		rt.keyPress(KeyEvent.VK_TAB);
+		rt.keyPress(KeyEvent.VK_SHIFT);
 		rt.keyPress(KeyEvent.VK_TAB);
+		rt.keyPress(KeyEvent.VK_SHIFT);
 		rt.keyPress(KeyEvent.VK_TAB);
-		Thread.sleep(15000);
-	    rt.keyRelease(KeyEvent.VK_TAB);
-	    rt.keyRelease(KeyEvent.VK_SHIFT);
-	    	    
-	    StringSelection stringSelection = new StringSelection("C:\\Users\\lenovo\\Desktop\\photo.avif");
-		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
-	    
-		rt.keyPress(KeyEvent.VK_CONTROL);
-        rt.keyPress(KeyEvent.VK_V);
-        rt.keyRelease(KeyEvent.VK_V);
-        rt.keyRelease(KeyEvent.VK_CONTROL);
-        rt.keyPress(KeyEvent.VK_ENTER);
-        rt.keyRelease(KeyEvent.VK_ENTER);
-       
-	    Thread.sleep(15000);
-	    //Actions act=CommonOperations.keyboardOperationsUsingActionsClass(driver);
-	   // act.sendKeys("C:\\Users\\lenovo\\Desktop\\photo.avif");
-	    Thread.sleep(15000);
-	    rt.keyPress(KeyEvent.VK_TAB);
-	    rt.keyRelease(KeyEvent.VK_TAB);
-	    Thread.sleep(15000);
-	    rt.keyPress(KeyEvent.VK_ENTER);
-	    
-	    //addEmployee_SaveButton();
-	    //CommonOperations.sendKeys(imageAddPlusButtonE, "C:\\Users\\lenovo\\Desktop\\photo.avif");
+		rt.keyRelease(KeyEvent.VK_TAB);
+		rt.keyRelease(KeyEvent.VK_SHIFT);
+		rt.keyPress(KeyEvent.VK_ENTER);
+		rt.keyRelease(KeyEvent.VK_ENTER);
 		
+		Runtime.getRuntime().exec("F:\\backupdesktop\\AutomationPractice\\OrangeHRM_POM_TestNG\\src\\resources\\java\\com\\AutoItScriptandimages\\photoupload1.exe");
+		
+		addEmployee_SaveButton();
+		
+		CommonOperations.driverWait().until(ExpectedConditions.visibilityOf(personalDetailsLabelTextE));
+		return new AddEmpPersonalDetailsPage();
 	}
+	
 	
 	private void addEmployee_SaveButton() {
 		
 		saveButtonE.click();
 	}
+	
 	
 }

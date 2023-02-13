@@ -1,5 +1,5 @@
 package com.ApplicationWebPages;
 
-public class HomeDashboardPage {
+public class HomePerformancePage {
 
 }

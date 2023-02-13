@@ -60,8 +60,8 @@ public class HomePageTest extends Base {
 	    }
 	    else
 	    {
-	    	test.fail("HomePage Current Url Validation Successfull");
-	    	Log.info("HomePage Current Url Validation Successfull - FAIL");
+	    	test.fail("HomePage Current Url Validation Unsuccessfull");
+	    	Log.info("HomePage Current Url Validation Unsuccessfull - FAIL");
 	    }
 	}
 	
@@ -85,7 +85,7 @@ public class HomePageTest extends Base {
     public void homePage_Admin_ValidationTest() {
 		test=extent.createTest("HomePage Admin Element Validation Test");
 		test.info("HomePage Admin Element Validation Test");
-		homePage.homePage_Admin_Validation();
+		homePage.homeAdminPage();
 		Log.info("HomePage Admin clicked and Navigated to Admin Page Successfully");
 	}
 	
@@ -93,7 +93,7 @@ public class HomePageTest extends Base {
 	public void homePage_PIM_ValidationTest() {
 		test=extent.createTest("HomePage PIM Element Validation Test");
 		test.info("HomePage PIM Element Validation Test");
-		homePage.homePage_PIM_Validation();
+		homePage.homePIMPage();
 		Log.info("HomePage PIM clicked and Navigated to PIM Page Successfully");
 	}
 	
@@ -101,7 +101,7 @@ public class HomePageTest extends Base {
 	public void homePage_Leave_ValidationTest() {
 		test=extent.createTest("HomePage Leave Element Validation Test");
 		test.info("HomePage Leave Element Validation Test");
-		homePage.homePage_Leave_Validation();
+		homePage.homeLeavePage();
 		Log.info("HomePage Leave clicked and Navigated to Leave Page Successfully");
 		
 	}
@@ -110,7 +110,7 @@ public class HomePageTest extends Base {
 	public void homePage_DashboardValidationTest() {
 		test=extent.createTest("HomePage Dashboard Element Validation Test");
 		test.info("HomePage Dashboard Element Validation Test");
-		homePage.homePage_DashboardValidation();
+		homePage.homeDashboardPage();
 		Log.info("HomePage Dashboard clicked and Navigated to Dashboard Page Successfully");
 	}
 	
@@ -206,17 +206,12 @@ public class HomePageTest extends Base {
 		
 	}
 	
-	//@Test(priority = 12,description = "HomePage Logout Option Validation")
-	public void homePage_UserDropDownLogout_ValidationTest() throws IOException {
-		test=extent.createTest("HomePage Logout option Validation");
-		test.info("HomePage Logout option Validation");
-		
-		Log.info("HomePage UserDropDown Button Clicked");
-		homePage.homePage_UserDropDownLogout_Validation();
-		Log.info("HomePage Logout Clicked Successfully");
-		
+	@Test(priority = 12, description = "homePage_MenuSearchEngineActive_Validation Test")
+	public void homePage_MenuSearchEngineActive_ValidationTest() {
+		test=extent.createTest("homePage_MenuSearchEngineActive_Validation Test");
+		test.info("homePage_MenuSearchEngineActive_Validation Test");
+		homePage.homePage_MenuSearchEngineActive_Validation(PropertiesClass.getProperties("menu"));
+		Log.info("HomePage PIM Page Navigation Successfull");
 	}
-	
-	
 	
 }

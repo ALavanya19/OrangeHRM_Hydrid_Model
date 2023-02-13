@@ -4,10 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.TestCases.LoginPageTest"/>
+       <class name="com.TestCases.ResetPasswordTest"/>
+      <class name="com.TestCases.SendPasswordResetPageTest"/>
       <class name="com.TestCases.HomePageTest"/>
       <class name="com.TestCases.HomePIMPageTest"/>
-      <class name="com.TestCases.ResetPasswordTest"/>
-      <class name="com.TestCases.SendPasswordResetPageTest"/>
+      <class name="com.TestCases.PIMAddEmployeeTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

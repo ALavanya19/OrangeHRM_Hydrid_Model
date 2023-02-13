@@ -9,8 +9,10 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.ApplicationWebPages.HomePage;
 import com.ApplicationWebPages.LoginPage;
 import com.BaseClass.Base;
+import com.CommonActions.CommonOperations;
 import com.Config.PropertiesClass;
 import com.ExcelCommonOperations.ExcelCommands;
 import com.Log.Log;
@@ -22,15 +24,16 @@ public class LoginPageTest extends Base {
 	String sheetName="LoginPage";
 
 	LoginPage loginPage;
+	HomePage homePage;
      
 	@BeforeMethod
 	//SetUp browser and orangeHRM application 
 	public void loginPage_setUp() throws IOException {
 	
+		
 		setUp();
 		ExcelCommands.loadExcelFile(inputFilePath, sheetName);
 		loginPage=new LoginPage();
-		Log.info("OrangeHRM Application LoginPage Launched Successfully");
 		
 	}
 	
@@ -111,14 +114,29 @@ public class LoginPageTest extends Base {
 	}
 	
 	@Test(priority=4, description = "LoginPage login Test")
-	public void loginPage_LoginTest() {
+	public void loginPage_LoginTest() throws IOException {
 		
 		test=extent.createTest("LoginPage Login Validation");
 		test.info("Validating LoginPage Login");
 		String userName=PropertiesClass.getProperties("userName");
 		String password=PropertiesClass.getProperties("Password");
-		loginPage.loginPage_Login(userName, password);
+		homePage=loginPage.loginPage_Login(userName, password);
 		Log.info("Entered Username and Password Successfully");
+	    String actual_HomePage_CurrentURL=homePage.homePage_CurrentUrl_Validation();
+	    String expected_HomeDashboardPageUrl="dashboard/index";
+	    if(actual_HomePage_CurrentURL.contains(expected_HomeDashboardPageUrl)) {
+	    	test.pass("HomePage Current Url Validation Successfull User Logged in Successfull");
+	    	Log.info("HomePage Current Url Validation Successfull User Logged in Successfull - PASS");
+	    	homePage.homePage_UserDropDownLogout_Validation();
+	    	
+	    }
+	    else
+	    {
+	    	test.fail("HomePage Current Url Validation Unuccessfull User Logged in Unsuccessfull");
+	    	Log.info("HomePage Current Url Validation Unuccessfull User Logged in Unsuccessfull - FAIL");
+	    	CommonOperations.screenShotForWebPage(userName);
+	    }
+		
 	}
 	
 	@Test(priority = 5, description = "LoginPage LoginLabelText Validation")

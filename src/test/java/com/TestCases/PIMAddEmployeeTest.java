@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.ApplicationWebPages.AddEmpPersonalDetailsPage;
 import com.ApplicationWebPages.HomePIMPage;
 import com.ApplicationWebPages.HomePage;
 import com.ApplicationWebPages.LoginPage;
@@ -14,22 +15,28 @@ import com.ApplicationWebPages.PIMAddEmployeePage;
 import com.ApplicationWebPages.PIMEmployeeListPage;
 import com.BaseClass.Base;
 import com.Config.PropertiesClass;
+import com.ExcelCommonOperations.ExcelCommands;
 import com.Log.Log;
+import com.aventstack.extentreports.ExtentTest;
 
 public class PIMAddEmployeeTest extends Base {
 
+	String inputExcelFilePath="F:\\backupdesktop\\AutomationPractice\\OrangeHRM_POM_TestNG\\src\\resources\\java\\com\\TestDataInputFiles\\OrangeHRMTestData.xlsx";
+	String outputExcelFilePath="F:\\backupdesktop\\AutomationPractice\\OrangeHRM_POM_TestNG\\src\\resources\\java\\com\\TestDataInputFiles\\OrangeHRMTestData.xlsx";
     
 	LoginPage loginPage;
 	HomePage homePage;
 	HomePIMPage homePimPage;
 	PIMAddEmployeePage pimAddEmployeePage;
+	AddEmpPersonalDetailsPage addEmpPersonalDetailsPage;
 	
 	@BeforeMethod
 	public void homePimPage_SetUp() throws IOException {
 		setUp();
+		ExcelCommands.loadExcelFile(inputExcelFilePath, "PIMAddEmployeePage");
 		loginPage=new LoginPage();
 		homePage=loginPage.loginPage_Login(PropertiesClass.getProperties("userName"), PropertiesClass.getProperties("Password"));
-		homePimPage=homePage.homePage_PIM_Validation();
+		homePimPage=homePage.homePIMPage();
 		pimAddEmployeePage=homePimPage.pimAddEmployeeList();
 		Log.info("OrangeHRM Login Successfull and Navigated to PIM Page ADD employee Test Validation");
 	}
@@ -37,17 +44,47 @@ public class PIMAddEmployeeTest extends Base {
 	@AfterMethod
 	public void homePimPage_TearDown() throws IOException {
 		loginPage=homePage.homePage_UserDropDownLogout_Validation();
+		ExcelCommands.excelSave(outputExcelFilePath);
 		extent.flush();
 		tearDown();
 	}
 	
 	@Test
-	public void addEmployee_CreateEmployee_Test() throws AWTException, InterruptedException {
+    public void addEmployee_CreateEmployee_Test() throws AWTException, InterruptedException, IOException {
 		
-		pimAddEmployeePage.addEmployee_CreateEmployee();
-		Thread.sleep(15000);
+		test=extent.createTest("PIM Page Add Employee Validation Test");
+		test.info("PIM Page Add Employee Validation Test");
+        int rowindex=1;
+           while(true) {
+
+        	   try {
+        	   
+        	      String firstName=ExcelCommands.getStringCellValue(rowindex,0);
+        	      String middleName=ExcelCommands.getStringCellValue(rowindex,1);
+        	      String lastName=ExcelCommands.getStringCellValue(rowindex,2);
+        	      addEmpPersonalDetailsPage=pimAddEmployeePage.addEmployee_CreateEmployee(firstName,middleName,lastName);
+        	      String actual_AddEmpPersonalDetailsCurrentUrl=addEmpPersonalDetailsPage.addEmpPersonalDetails();
+        		  String expected_AddEmpPersonalDetailsCurrentUrl="pim/viewPersonalDetails";
+        			if(actual_AddEmpPersonalDetailsCurrentUrl.contains(expected_AddEmpPersonalDetailsCurrentUrl)) {
+        				test.pass("Add Employee Page Personal Details Page Test Validation Successfull");
+        				Log.info("Add Employee Page Personal Details Page Test Validation Successfull - PASS");
+        			}
+        			else
+        			{
+        				test.fail("Add Employee Page Personal Details Page Test Validation Unsuccessfull");
+        				Log.info("Add Employee Page Personal Details Page Test Validation Unsuccessfull - FAIL");
+        		    }
+        			
+        		  Log.info(firstName+lastName+" Add Successfully");
+        		rowindex++;
+        		pimAddEmployeePage=homePimPage.pimAddEmployeeList();
+        	   }
+        	   catch(Exception e) {
+        	      break;
+        	   }
+        	   
+           }
+		
 		
 	}
-	
-	
 }

@@ -40,7 +40,7 @@ public class HomePIMPageTest extends Base {
 		setUp();
 		loginPage=new LoginPage();
 		homePage=loginPage.loginPage_Login(PropertiesClass.getProperties("userName"), PropertiesClass.getProperties("Password"));
-		homePimPage=homePage.homePage_PIM_Validation();
+		homePimPage=homePage.homePIMPage();
 		Log.info("OrangeHRM Login Successfull and Navigated to PIM Page Test Validation");
 	}
 	

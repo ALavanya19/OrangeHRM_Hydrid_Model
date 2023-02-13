@@ -13,12 +13,14 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.BaseClass.Base;
+import com.Log.Log;
 
-public class CommonOperations{
+public class CommonOperations extends Base{
 	
-	public static void screenShotForWebPage(WebDriver driver,String screenShotName) throws IOException {
+	public static void screenShotForWebPage(String screenShotName) throws IOException {
 		
        File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);	
        FileUtils.copyFile(src, new File("./src/resources/java/com/Screenshots/"+screenShotName+".png"));
@@ -28,6 +30,16 @@ public class CommonOperations{
 		
 	       File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);	
 	       FileUtils.copyFile(src, new File("./src/resources/java/com/Screenshots/"+screenShotName+".png"));
+	}
+	
+    public static void checkMandatoryFieldsEnteredOrNot(WebElement elementName) throws IOException {
+		
+		String value=elementName.getAttribute("value");
+		if(value.isBlank()) {
+			Log.warn(value+" is Mandatory");
+			screenShotForWebPage(value+"IsMandatory");
+		}
+		
 	}
 	
 	public static void click(WebElement element) {
@@ -61,6 +73,11 @@ public class CommonOperations{
 	public static Actions keyboardOperationsUsingActionsClass(WebDriver driver) {
 		return new Actions(driver);
 		
+	}
+	
+	public static WebDriverWait driverWait() {
+		
+		return new WebDriverWait(driver, 15);
 	}
 	
 }

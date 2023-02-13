@@ -84,7 +84,7 @@ public class HomePIMPage extends Base {
 	
 	//Reports Page 
 	public PIMReportsPage pimReports() {
-		pimReportsE.click();
+		//pimReportsE.click();
 		return new PIMReportsPage();
 	}
 	

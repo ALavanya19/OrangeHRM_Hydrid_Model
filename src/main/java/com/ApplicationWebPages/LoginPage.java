@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.ApplicationWebPages.HomePage;
 import com.BaseClass.Base;
 import com.CommonActions.CommonOperations;
+import com.Log.Log;
 
 public class LoginPage extends Base{
 
@@ -76,9 +77,13 @@ public class LoginPage extends Base{
 	}
 	
 	//validating LoginPage Login
-	public HomePage loginPage_Login(String userName,String password) {
+	public HomePage loginPage_Login(String userName,String password) throws IOException {
 		CommonOperations.sendKeys(userNameE, userName);
+		String userNameAttribute=userNameE.getAttribute("value");
+		CommonOperations.checkMandatoryFieldsEnteredOrNot(userNameE);
+		
 		CommonOperations.sendKeys(passwordE, password);
+	    CommonOperations.checkMandatoryFieldsEnteredOrNot(passwordE);
 		CommonOperations.click(loginButtonE);
 		
 		return new HomePage();

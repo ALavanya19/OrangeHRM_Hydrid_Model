@@ -195,43 +195,44 @@ public class HomePage extends Base {
 	public void homePage_MenuSearchEngineActive_Validation(String menuName) {
 		boolean flag=menuSearchEngineActiveE.isDisplayed();
 	    
-		menuSearchEngineActiveE.sendKeys(menuName);
+		
 		if(flag=true) {
-			
+			menuSearchEngineActiveE.sendKeys(menuName);
 			for(WebElement e:menuOptionsListE) {
 				if(e.getText().equals("Admin")) {
-					menuAdminE.click(); 
+			         homeAdminPage();
 				}
 				else if(e.getText().equals("PIM")) {
-					
+					homePIMPage();
 				}
 				else if(e.getText().equals("Leave"))
 				{
-					
+				    homeLeavePage();
 				}else if(e.getText().equals("Time")) {
-					
+					homeTimePage();
 				}
 				else if(e.getText().equals("Recruitment")) {
-					
+					homeRecruitmentPage();
 				}
 				else if(e.getText().equals("My Info")) {
-					
+					homeMyInfoPage();
 				}
 				else if(e.getText().equals("Performance"))
 				{
-					
+					homePerformancePage();
 				}
 				else if(e.getText().equals("Dashboard")) {
-					
+					homeDashboardPage();
 				}
 				else if(e.getText().equals("Directory")) {
 					
+					homeDirectoryPage();
 				}
 				else if(e.getText().equals("Maintenance")) {
-					
+					homeMaintenancePage();
 				}
 				else if(e.getText().equals("Buzz")) {
-					
+					homeBuzzPage();
 				}
 					
 			}
@@ -244,35 +245,7 @@ public class HomePage extends Base {
 		}
 	}
 
-	public HomeAdminPage homePage_Admin_Validation() {
-		menuAdminE.click();
-		return new HomeAdminPage();
-	}
-	
-	public HomePIMPage homePage_PIM_Validation() {
-		menuPIME.click();
-		return new HomePIMPage();
-	}
-	
-	public HomeLeavePage homePage_Leave_Validation() {
-		menuLeaveE.click();
-		return new HomeLeavePage();
-	}
-	
-	public HomeRecruitmentPage homePage_Recruitment_Validation() {
-		menuRecruitmentE.click();
-		return new HomeRecruitmentPage();
-	}
-	
-	public HomeMyInfoPage homePage_MyInfo_Validation() {
-		menuMyInfoE.click();
-		return new HomeMyInfoPage();
-	}
-	
-	public HomePage homePage_DashboardValidation() {
-		menuDashboardE.click();
-		return new HomePage();
-	}
+
 	
     public String homePage_CurrentActivePage_Validation() {
     	
@@ -339,4 +312,52 @@ public class HomePage extends Base {
     
     
     
+    public HomeAdminPage homeAdminPage() {
+    	menuAdminE.click();
+    	return new HomeAdminPage();
+    }
+    
+     public HomePIMPage homePIMPage() {
+    	 menuPIME.click();
+    	return new HomePIMPage();
+    }
+    
+     public HomeLeavePage homeLeavePage() {
+    	 menuLeaveE.click();
+     	return new HomeLeavePage();
+     }
+     public HomePage homeDashboardPage() {
+    	 menuDashboardE.click();
+     	return new HomePage();
+     }
+     public HomeMyInfoPage homeMyInfoPage() {
+    	 menuMyInfoE.click();
+     	return new HomeMyInfoPage();
+     }
+     public HomeRecruitmentPage homeRecruitmentPage() {
+    	 menuRecruitmentE.click();
+     	return new HomeRecruitmentPage();
+     }
+     public HomeTimePage homeTimePage() {
+    	 menuTimeE.click();
+     	return new HomeTimePage();
+     }
+     public HomePerformancePage homePerformancePage() {
+    		menuPerformanceE.click();
+     	return new HomePerformancePage();
+     }
+     public HomeDirectoryPage homeDirectoryPage() {
+    	 menuDirectoryE.click();
+     	return new HomeDirectoryPage();
+     }
+     public HomeBuzzPage homeBuzzPage() {
+    	 menuBuzzE.click();
+     	return new HomeBuzzPage();
+     }
+     
+     public HomeMaintenancePage homeMaintenancePage() {
+    	 menuMaintenanceE.click();
+      	return new HomeMaintenancePage();
+      }
+     
 }

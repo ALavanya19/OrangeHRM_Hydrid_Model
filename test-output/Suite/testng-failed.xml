@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.TestCases.HomePageTest">
+      <class name="com.TestCases.PIMAddEmployeeTest">
         <methods>
           <include name="extentReportsInititation"/>
-          <include name="homePage_TearDown"/>
-          <include name="homePage_PIM_ValidationTest"/>
-          <include name="homePage_SetUp"/>
+          <include name="homePimPage_TearDown"/>
+          <include name="addEmployee_CreateEmployee_Test"/>
+          <include name="homePimPage_SetUp"/>
         </methods>
-      </class> <!-- com.TestCases.HomePageTest -->
+      </class> <!-- com.TestCases.PIMAddEmployeeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
