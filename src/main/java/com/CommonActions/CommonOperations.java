@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.hc.core5.http.nio.entity.AbstractCharAsyncEntityConsumer;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -78,6 +79,42 @@ public class CommonOperations extends Base{
 	public static WebDriverWait driverWait() {
 		
 		return new WebDriverWait(driver, 15);
+	}
+	
+	public static String passwordStrongWeakTextLabel(String password) {
+		
+		String passwordArr=password, result;
+		int upperLetterCount=0, lowerLetterCount=0,digitCount=0,spaceCount=0,specialCharCount=0;
+		
+		for(int index=0;index<passwordArr.length();index++) {
+			
+			char c=passwordArr.charAt(index);
+			if(Character.isUpperCase(c)) {
+				upperLetterCount++;
+			}
+			else if(Character.isLowerCase(c)) {
+				lowerLetterCount++;
+			}
+			else if(Character.isDigit(c)) {
+				digitCount++;
+			}
+			else if(Character.isSpace(c)) {
+               				
+				spaceCount++;
+			}else {
+				specialCharCount++;
+			}
+			
+		}
+		if(upperLetterCount!=0 && lowerLetterCount!=0 && digitCount!=0 && specialCharCount!=0 && spaceCount!=0) {
+			result="Strong";	
+		}
+		else
+		{
+			result="Weak";
+		}
+		
+		return  result;
 	}
 	
 }

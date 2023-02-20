@@ -62,7 +62,9 @@ public class PIMAddEmployeeTest extends Base {
         	      String firstName=ExcelCommands.getStringCellValue(rowindex,0);
         	      String middleName=ExcelCommands.getStringCellValue(rowindex,1);
         	      String lastName=ExcelCommands.getStringCellValue(rowindex,2);
-        	      addEmpPersonalDetailsPage=pimAddEmployeePage.addEmployee_CreateEmployee(firstName,middleName,lastName);
+        	      String userName=ExcelCommands.getStringCellValue(rowindex, 6);
+        	      String password=ExcelCommands.getStringCellValue(rowindex, 7);
+        	      addEmpPersonalDetailsPage=pimAddEmployeePage.addEmployee_CreateEmployee(firstName,middleName,lastName,userName,password);
         	      String actual_AddEmpPersonalDetailsCurrentUrl=addEmpPersonalDetailsPage.addEmpPersonalDetails();
         		  String expected_AddEmpPersonalDetailsCurrentUrl="pim/viewPersonalDetails";
         			if(actual_AddEmpPersonalDetailsCurrentUrl.contains(expected_AddEmpPersonalDetailsCurrentUrl)) {

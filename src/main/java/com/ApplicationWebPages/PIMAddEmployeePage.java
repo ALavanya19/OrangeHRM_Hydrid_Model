@@ -7,6 +7,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -50,11 +51,31 @@ public class PIMAddEmployeePage extends Base{
 	
 	//Add Image Button
 	@FindBy(xpath="//*[@class='employee-image']")
+	WebElement imageAddButtonE;
+	
+	//Add Image Plus Button
+	@FindBy(xpath="//*[@class='oxd-icon-button employee-image-action']")
 	WebElement imageAddPlusButtonE;
 	
 	//Create Login Details Element
 	@FindBy(xpath="//*[@class='oxd-switch-input oxd-switch-input--active --label-right']")
 	WebElement createLoginDetailsE;
+	    
+	   //Username Element
+	   @FindBy(xpath="//*[@class='oxd-form-row']//input[@class='oxd-input oxd-input--active' and @autocomplete='off']")
+	   WebElement userNameE;
+	   
+	   //Password & Confirm Password
+	   @FindBy(xpath="//input[@class='oxd-input oxd-input--active' and @type='password']")
+	   List<WebElement>passwordConfirmPasswordE;
+	   
+	   //Strong/Weak Password label
+	   @FindBy(xpath="//span[starts-with(@class,'oxd-chip oxd-chip--default user-password-chip')]")
+	   WebElement strongOrWeekStatusLableE;
+	   
+	   //Status Radio Buttons
+	   @FindBy(xpath="//span[contains(@class,'oxd-radio-input oxd-radio-input--active --label-right oxd-radio-input') or contains(@class,'oxd-radio-input oxd-radio-input--focus --label-right oxd-radio-input')]")
+	   List<WebElement>statusRadioButtonsE;
 	
 	//Cancel Button
 	@FindBy(xpath="oxd-button oxd-button--medium oxd-button--ghost")
@@ -80,11 +101,10 @@ public class PIMAddEmployeePage extends Base{
 		return addEmployeeLabelTextE.getText();
 	}
 	
-	//
-	public AddEmpPersonalDetailsPage addEmployee_CreateEmployee(String firstName,String middleName,String lastName) throws AWTException, InterruptedException, IOException {
+	//Add Employee
+	public AddEmpPersonalDetailsPage addEmployee_CreateEmployee(String firstName,String middleName,String lastName,String userName,String password) throws AWTException, InterruptedException, IOException {
 		
 
-		
 		CommonOperations.sendKeys(firstNameE, firstName);
 		CommonOperations.checkMandatoryFieldsEnteredOrNot(firstNameE);
 		
@@ -113,12 +133,44 @@ public class PIMAddEmployeePage extends Base{
 		
 		Runtime.getRuntime().exec("F:\\backupdesktop\\AutomationPractice\\OrangeHRM_POM_TestNG\\src\\resources\\java\\com\\AutoItScriptandimages\\photoupload1.exe");
 		
+		createLoginDetailsSwitch(userName,password);
+		
 		addEmployee_SaveButton();
 		
 		CommonOperations.driverWait().until(ExpectedConditions.visibilityOf(personalDetailsLabelTextE));
 		return new AddEmpPersonalDetailsPage();
 	}
 	
+	
+	//createLogin Details Switch
+	private void createLoginDetailsSwitch(String userName,String password) {
+		
+		createLoginDetailsE.click();
+		createLoginDetailsUsername(userName);
+		createLoginDetailsPassword(password);
+		
+	}
+	
+	
+	private void createLoginDetailsUsername(String userName) {
+		//6,7
+		CommonOperations.sendKeys(userNameE, userName);
+
+	}
+	
+	private String createLoginDetailsPassword(String password) {
+		String result;
+		CommonOperations.sendKeys(passwordConfirmPasswordE.get(0), password);
+		CommonOperations.passwordStrongWeakTextLabel(password);		
+		CommonOperations.sendKeys(passwordConfirmPasswordE.get(1), password);
+		if(passwordConfirmPasswordE.get(1).getText().equals(passwordConfirmPasswordE.get(0).getText())) {
+			result=""
+		}
+		else
+		{
+			
+		}
+	}
 	
 	private void addEmployee_SaveButton() {
 		
