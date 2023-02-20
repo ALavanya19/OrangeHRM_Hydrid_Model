@@ -107,7 +107,7 @@ public class CommonOperations extends Base{
 			
 		}
 		if(upperLetterCount!=0 && lowerLetterCount!=0 && digitCount!=0 && specialCharCount!=0 && spaceCount!=0) {
-			result="Strong";	
+			result="Strongest";	
 		}
 		else
 		{

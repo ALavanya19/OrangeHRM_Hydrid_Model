@@ -107,6 +107,7 @@ public class PIMAddEmployeePage extends Base{
 
 		CommonOperations.sendKeys(firstNameE, firstName);
 		CommonOperations.checkMandatoryFieldsEnteredOrNot(firstNameE);
+
 		
 		CommonOperations.sendKeys(middleNameE, middleName);
 		CommonOperations.checkMandatoryFieldsEnteredOrNot(middleNameE);
@@ -131,11 +132,19 @@ public class PIMAddEmployeePage extends Base{
 		rt.keyPress(KeyEvent.VK_ENTER);
 		rt.keyRelease(KeyEvent.VK_ENTER);
 		
+		
 		Runtime.getRuntime().exec("F:\\backupdesktop\\AutomationPractice\\OrangeHRM_POM_TestNG\\src\\resources\\java\\com\\AutoItScriptandimages\\photoupload1.exe");
 		
+	
+		//CommonOperations.driverWait().until(ExpectedConditions.elementSelectionStateToBe(imageAddButtonE, true));
+	
+		Thread.sleep(5000);
 		createLoginDetailsSwitch(userName,password);
 		
-		addEmployee_SaveButton();
+		//addEmployee_SaveButton();
+		
+		Thread.sleep(5000);
+		
 		
 		CommonOperations.driverWait().until(ExpectedConditions.visibilityOf(personalDetailsLabelTextE));
 		return new AddEmpPersonalDetailsPage();
@@ -143,9 +152,10 @@ public class PIMAddEmployeePage extends Base{
 	
 	
 	//createLogin Details Switch
-	private void createLoginDetailsSwitch(String userName,String password) {
+	private void createLoginDetailsSwitch(String userName,String password) throws InterruptedException, AWTException {
 		
 		createLoginDetailsE.click();
+		Thread.sleep(5000);
 		createLoginDetailsUsername(userName);
 		createLoginDetailsPassword(password);
 		
@@ -158,18 +168,24 @@ public class PIMAddEmployeePage extends Base{
 
 	}
 	
-	private String createLoginDetailsPassword(String password) {
-		String result;
+	private void createLoginDetailsPassword(String password) throws InterruptedException, AWTException {
+		
 		CommonOperations.sendKeys(passwordConfirmPasswordE.get(0), password);
-		CommonOperations.passwordStrongWeakTextLabel(password);		
-		CommonOperations.sendKeys(passwordConfirmPasswordE.get(1), password);
-		if(passwordConfirmPasswordE.get(1).getText().equals(passwordConfirmPasswordE.get(0).getText())) {
-			result=""
-		}
-		else
-		{
-			
-		}
+		CommonOperations.passwordStrongWeakTextLabel(password);
+		
+		////Robot rt=CommonOperations.keyboardOperationsUsingRobotClass();
+			//rt.keyPress(KeyEvent.VK_TAB);
+			passwordConfirmPasswordE.get(1).sendKeys(password);
+			if(passwordConfirmPasswordE.get(1).getText().equals(passwordConfirmPasswordE.get(0).getText())) {
+				System.out.println("Matched");
+				Log.info("Password and Confirm Password Matched");
+			}
+			else
+			{
+				Log.warn("Password and confirm password not matched");
+				System.out.println("Not matched");
+			}
+		
 	}
 	
 	private void addEmployee_SaveButton() {

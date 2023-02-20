@@ -21,8 +21,8 @@ import com.aventstack.extentreports.ExtentTest;
 
 public class PIMAddEmployeeTest extends Base {
 
-	String inputExcelFilePath="F:\\backupdesktop\\AutomationPractice\\OrangeHRM_POM_TestNG\\src\\resources\\java\\com\\TestDataInputFiles\\OrangeHRMTestData.xlsx";
-	String outputExcelFilePath="F:\\backupdesktop\\AutomationPractice\\OrangeHRM_POM_TestNG\\src\\resources\\java\\com\\TestDataInputFiles\\OrangeHRMTestData.xlsx";
+	String inputExcelFilePath="F:\\backupdesktop\\AutomationPractice\\OrangeHRM_Hydrid_Model\\src\\resources\\java\\com\\TestDataInputFiles\\OrangeHRMTestData.xlsx";
+	String outputExcelFilePath="F:\\backupdesktop\\AutomationPractice\\OrangeHRM_Hydrid_Model\\src\\resources\\java\\com\\TestDataInputFiles\\OrangeHRMTestData.xlsx";
     
 	LoginPage loginPage;
 	HomePage homePage;
@@ -43,10 +43,10 @@ public class PIMAddEmployeeTest extends Base {
 	
 	@AfterMethod
 	public void homePimPage_TearDown() throws IOException {
-		loginPage=homePage.homePage_UserDropDownLogout_Validation();
-		ExcelCommands.excelSave(outputExcelFilePath);
+		//loginPage=homePage.homePage_UserDropDownLogout_Validation();
+		//ExcelCommands.excelSave(outputExcelFilePath);
 		extent.flush();
-		tearDown();
+		//tearDown();
 	}
 	
 	@Test
@@ -62,8 +62,9 @@ public class PIMAddEmployeeTest extends Base {
         	      String firstName=ExcelCommands.getStringCellValue(rowindex,0);
         	      String middleName=ExcelCommands.getStringCellValue(rowindex,1);
         	      String lastName=ExcelCommands.getStringCellValue(rowindex,2);
-        	      String userName=ExcelCommands.getStringCellValue(rowindex, 6);
-        	      String password=ExcelCommands.getStringCellValue(rowindex, 7);
+        	      String userName=ExcelCommands.getStringCellValue(rowindex,5);
+        	      String password=ExcelCommands.getStringCellValue(rowindex,6);
+
         	      addEmpPersonalDetailsPage=pimAddEmployeePage.addEmployee_CreateEmployee(firstName,middleName,lastName,userName,password);
         	      String actual_AddEmpPersonalDetailsCurrentUrl=addEmpPersonalDetailsPage.addEmpPersonalDetails();
         		  String expected_AddEmpPersonalDetailsCurrentUrl="pim/viewPersonalDetails";
